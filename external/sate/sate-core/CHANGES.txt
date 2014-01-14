@@ -1,0 +1,29 @@
+
+Release 2.1.0
+=============
+
+    - [BUG FIX] No longer write out duplicate sequence entries in final alignment output.
+    - [CHANGES] Do not clean up files and directories in temporary working directory not created by SATe.
+    - [BUG FIX] Check for gamma score in output file before using value in log file.
+
+Release 2.0.3
+=============
+
+    - Fix for not terminating correctly in SATE-II-fast mode.
+    - Allow specification of memory to be allocated to JVM when running Opal [NOTE: default memory allocation is now 1024MB instead of 2048MB].
+    - Default to SATE-II-fast mode instead of SATE-II-ML.
+    - SATE-II-ML defaults to 10 iterations instead of 100.
+
+Release 2.0.2b
+==============
+
+    - Fix for multilocus analysis with non-equal leaf-sets.
+    - Fix for allowing SATe application bundle to be run from directories with
+      non-alphanumeric characters in path.
+
+Release 2.0.1b
+==============
+
+    - Support for multilocus analysis.
+    - `pairalign` (MAFFT) is not run if sequences are > 10K characters. This
+      configuration has not been benchmarked.

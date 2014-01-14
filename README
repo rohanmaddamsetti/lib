@@ -1,0 +1,5 @@
+This directory contains code and modules which are reused between projects.
+
+external/ contains external modules, packages, and dependencies for our code.
+Some of these packages are symbolic links to code installed elsewhere on the
+filesystem.
